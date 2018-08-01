@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>QAALBI EVENTS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="jumbotron text-center">
+        <h1>APPOINTMENT SUMMARY</h1>
+        <h3>QAALBI EVENTS</h3>
+        <p>124 Main Street, Minneapolis, MN 55444</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+                <div id="map"></div>
+            <div class="col-sm-3">
+                <p>
+                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="true" aria-controls="collapseExample1">
+                        Event Details </a>
+                </p>
+                <div class="collapse" id="collapseExample1">
+                    <div class="card card-body">
+                        <div class="col-sm-4">
+                            <p class="badge badge-success" role="alert">Wedding
+                                <i class="fa fa-check-square fa-lg" aria-hidden="true"></i>
+                            </p>
+                        </div>
+                        <div class="col-sm-4">
+                            <p class="badge badge-success" role="alert">Event Date: 08/19/2019
+                                <i class="fa fa-check-square fa-lg" aria-hidden="true"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       
+        <div class="col-sm-3">
+            <p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+                    Prerequisties </a>
+            </p>
+            <div class="collapse" id="collapseExample2">
+
+                <div class="card card-body">
+                    <div class="col-sm-4">
+                        <p class="badge badge-success" role="alert">100 guests
+                            <i class="fa fa-check-square fa-lg" aria-hidden="true"></i>
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="badge badge-success" role="alert">Outdoor
+                            <i class="fa fa-check-square fa-lg" aria-hidden="true"></i>
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="badge badge-success" role="alert">Reception
+                            <i class="fa fa-check-square fa-lg" aria-hidden="true"></i>
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="badge badge-success" role="alert">Alcohol
+                            <i class="fa fa-check-square fa-lg" aria-hidden="true"></i>
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="badge badge-success" role="alert">Season: Summer
+                            <i class="fa fa-check-square fa-lg" aria-hidden="true"></i>
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="badge badge-success" role="alert">Catering
+                            <i class="fa fa-check-square fa-lg" aria-hidden="true"></i>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Payment</a>
+            </p>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    <p class="badge badge-success" role="alert">Method: Down + Finance
+                        <i class="fa fa-check-square fa-lg" aria-hidden="true"></i>
+                    </p>
+                    <p class="badge badge-success" role="alert">Down-payment Due: 09/19/2018
+                        <i class="fa fa-check-square fa-lg" aria-hidden="true"></i>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRsPMzvBswLvYzsD52DRUsYZdPObCgw-8&callback=initMap">
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
